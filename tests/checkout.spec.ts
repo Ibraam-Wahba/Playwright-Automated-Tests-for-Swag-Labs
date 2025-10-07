@@ -77,27 +77,7 @@ test.describe('Checkout Process Tests', () => {
         // Verify confirmation message
         await checkout.assertConfirmationMessage();
     });
-    // test('Cancel checkout and return to home page', async ({ page }) => {
-    //     const cart = new CartPage(page);
-    //     const checkout = new CheckoutPage(page);
-
-    //     // Go to checkout form page
-    //     await cart.clickCheckoutButton();
-    //     await checkout.assertOnCheckoutFormPage();
-    //     // Fill checkout form
-    //     await checkout.fillCheckoutForm("John", "Doe", "12345");
-
-    //     // Continue to overview page
-    //     await checkout.clickContinue();
-    //     await checkout.assertOnCheckoutOverviewPage();
-
-    //     // Cancel checkout process
-    //     await checkout.clickCancel();
-
-    //     // Verify returned to home page
-    //     await checkout.assertOnHomePage();
-    // });
-
+    
 });
 test.describe('Cancel Checkout Flow', () => {
 
@@ -141,3 +121,4 @@ test.describe('Cancel Checkout Flow', () => {
     });
 
 });
+
