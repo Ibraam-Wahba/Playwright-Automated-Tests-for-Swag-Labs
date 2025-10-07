@@ -28,9 +28,11 @@ Install all required dependencies using npm:
 ```bash
 npm install
 ```
-Install Playwright 
+Install the browsers needed to run the tests:
+
+Install Playwright Browsers
 ```bash
-npm init playwright@latest
+npx playwright install
 ```
 ### Running the Tests
 Run All Tests in Headless Mode
