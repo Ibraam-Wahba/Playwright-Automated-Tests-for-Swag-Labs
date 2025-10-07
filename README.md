@@ -8,9 +8,7 @@ Before running the tests, ensure you have:
 - **Node.js** (v16 or later)
 - **npm** (comes with Node.js)
 - **Git** 
-- **Playwright Browsers**: Install using  
-  ```bash
-  npx playwright install
+- **Playwright**
 
 ## Installation & Setup
 
@@ -21,7 +19,7 @@ git clone https://github.com/Ibraam-Wahba/Playwright-Automated-Tests-for-Swag-La
 ```
 Then navigate to the project directory:
 ```bash
-cd <your-repo-name>
+cd Playwright-Automated-Tests-for-Swag-Labs
 ```
 
 ### Install Dependencies
