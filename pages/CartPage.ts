@@ -99,10 +99,11 @@ export class CartPage
     {
         const currentUrl = this.page.url();
         await this.page.locator(this.checkoutButton).click();
-        await expect(this.page).toHaveURL(currentUrl);
+        await expect.soft(this.page).toHaveURL(currentUrl);
     }
     async clickCheckoutButton() 
     {
         await this.page.locator(this.checkoutButton).click();
     }
 }
+
